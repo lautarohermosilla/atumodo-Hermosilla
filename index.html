@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--head es todo lo que no se ve de la pagina, enlaces, JavaScript, etc-->
+    <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>ATUMODO</title>
+       <link rel="shortcut icon" href="img/atumodo.favicon.png" type="image/x-icon">
+       <link rel="stylesheet" href="./css/estilos.css">
+       <script src="https://kit.fontawesome.com/869d587294.js" crossorigin="anonymous"></script>
+    </head>
+
+    <!--Body es todo lo que esta visible en la pagina.-->
+    <body>
+     
+        <header class="header"> <!--al darle una clase a una etiqueta estoy facilintando la manera para darle estilo propio a ese atributo-->
+         <div class="container"> <!-- este div contiene el logo del header/encabezado-->
+            <a href="#"> <!--la etiqueta a para enlazar la imagen y redireccionar hacia al inicio-->
+                <img class="header__imagen" width="100%" src="./img/atumodo.logo.jpg" alt="imagen-logo"> <!--logo del header-->
+            </a>
+        </div>
+        
+            <nav> <!--navegador-->
+                    
+                      <ul class="nav">
+                        
+                        <li><a href="index.html">Inicio</a></li>
+                        
+                        <li><a href="pages/productos.html"> <i class="fa-solid fa-angle-down"></i> Productos</a> 
+                            <ul> 
+                                <li><a href="pages/productos.html">Remeras</a></li>
+                                <li><a href="pages/productos.html">Sudaderas</a></li>
+                                <li><a href="pages/productos.html">Camperas</a></li>
+                                <li><a href="pages/productos.html">Pantalones</a></li>
+                                <li><a href="pages/productos.html">Accesorios</a></li>
+                            </ul>                        
+                        </li>
+                        <li><a href="pages/sucursales.html">Sucursales</a></li>
+                    </ul>
+                        <ul class="nav">
+                            <li><a href="pages/contacto.html">Contacto</a></li>
+                            <li><a href="pages/comunidad.html">Comunidad</a></li>
+
+
+                        </ul>
+                
+            </nav> 
+        </header>
+        <main>
+           <img class="imagen__inicio" width="100%" src="./img/menu-imagen.jpg"alt="">
+            
+            
+        </main>
+        <section>
+                <h1 class="Titulo__inicio">¡Bienvenido a ATUMODO!</h1> <br>
+                 <p>"A TU MODO" es una comunidad, donde el objetivo es que encuentres <br>
+                tu estilo propio a la hora de vestirte!, nosotros vamos ayudarte <br>
+                a que lo encuentres con algunos de nuestros productos!</p>
+        </section> 
+        <br>          
+        
+        <section>
+                 <div class="Galeria">
+                    <figure class="galeria__foto galeria__foto--g1">   
+
+                        <img src="img/camperanegragrande.jpg.jpg" alt="seccion-camperas" class="galeria__img" >
+
+                    </figure>
+
+                    <figure class="galeria__foto galeria__foto--g2">   
+
+                        <img src="img/pantalonrotoinicio.jpg" alt="seccion-jeans" class="galeria__img">
+
+                    </figure>
+                       
+                    <figure  class="galeria__foto galeria__foto--g3">   
+                        <img src="img/hoodieinicio (1).jpg" alt="seccion-buzos"  class="galeria__img"">
+                    </figure>
+                        
+                    <figure class="galeria__foto galeria__foto--g4">   
+                     <img src="img/remerainicio.jpg" alt="seccion-remeras" class="galeria__img">
+                    </figure>   
+                    
+                 </div>
+                 
+            
+                   
+        </section>
+        
+        <footer class="PiePagina">
+            <div class="Grupo1">
+                <div class="box">
+                    <figure>
+                        
+                        <a href="#"><img src="img/atumodo.logo.jpg"" alt="logo-pie-de-pagina"></a>
+                        
+                    </figure>
+                 
+                </div>
+                <div class="box">
+                        <h2>SOBRE NOSOTROS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit laborum </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit laborum </p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                        <div class="redSocial">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                        </div>
+                </div>
+            </div>
+            <div class="grupo2">
+                <small>&copy; 2022 <b>ATUMODO</b> - Todos los Derechos Reservados </small>
+            </div>
+              
+             
+        </footer>
+    </body>
+        
+</html>

@@ -157,12 +157,13 @@ ul, ol{
   margin-right: 40px;
   left: 400%;
   font-family: 'Raleway', sans-serif;
+  transition: all 500ms ease;
   
 }
-/*.nav li a :hover{
-  background: color #fefefe;;
+nav li a :hover{
+  color: #ff5cfc;
 
-}*/
+}
 
 .nav > li{
   float: left;

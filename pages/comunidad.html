@@ -10,49 +10,33 @@
     <title>COMUNIDAD</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <a href="../index.html">
-            <img class="header__imagen" width="100%" src="../img/atumodo.logo.jpg" alt="imagen-logo">
+    <header class="header"> <!--al darle una clase a una etiqueta estoy facilintando la manera para darle estilo propio a ese atributo-->
+        <div class="container"> <!-- este div contiene el logo del header/encabezado-->
+            <a href="#"> <!--la etiqueta a para enlazar la imagen y redireccionar hacia al inicio-->
+                <img class="header__imagen" width="100%" src="../img/atumodo.logo.jpg" alt="imagen-logo"> <!--logo del header-->
             </a>
         </div>
-            
-        <nav>
-            <div class="flotar-izquierda"> 
-              <ul class="nav">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html"> <i class="fa-solid fa-angle-down"></i> Productos</a>
-                    <ul>
-                        <li><a href="pages/productos.html">Remeras</a></li>
-                        <li><a href="pages/productos.html">Sudaderas</a></li>
-                        <li><a href="pages/productos.html">Camperas</a></li>
-                        <li><a href="pages/productos.html">Pantalones</a></li>
-                        <li><a href="pages/productos.html">Accesorios</a></li>
-                    </ul>                        
-                </li>
-                <li><a href="sucursales.html">Sucursales</a></li>
-              </ul>
-
-            </div>
+        <nav class="nav-menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="menu-icon">
+                        <img src="../img/icono.png.png" alt="">
+                    </i>
+                </label>
+                
 
 
-            <div class="flotar-derecha">
-                <ul class="nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a> </li>
+                    <li><a href="sucursales.html">Sucursales</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                     <li><a href="#">Comunidad</a></li>
-
-
                 </ul>
-
-                     
-
-
+        </nav>
             
-
-            
-            </div>
-    </nav> 
-        </header>
+       
+    </header>
         <footer class="PiePagina">
             <div class="Grupo1">
                 <div class="box">

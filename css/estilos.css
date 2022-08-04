@@ -189,15 +189,16 @@ nav li a:hover{
 
 }*/
 
-.nav-menu{
+.navMenu{
   display: flex;
   justify-content: center;
  }
 
-a{
+.enlaces{
+
   background-color: white;
-  color: rgba(67, 86, 176, 0.955);
-  text-decoration:none;
+  color: rgba(69, 95, 225, 0.955);
+  text-decoration: none;
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -211,25 +212,26 @@ a{
   
 }
 
-a:hover{
+.enlaces:hover{
   color: #ff5cfc;
+  
 
 }
 
-.nav-menu ul{
+.navMenu ul{
   display: flex;
   align-items: center;
   list-style: none;
 
 }
 
-.nav-menu li{
+.navMenu li{
   margin-right: 1.5rem;
 
 }
 
 
-.nav-menu li{
+.navMenu li{
  margin-right: 1em;
 
 
@@ -268,7 +270,7 @@ a:hover{
 
   }
 
-  .nav-menu ul{
+  .navMenu ul{
     display: block;
     position: fixed;
     top: 70px;
@@ -279,7 +281,7 @@ a:hover{
     right: 10;
   }
   
-  .nav-menu ul li{
+  .navMenu ul li{
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -314,7 +316,7 @@ a:hover{
  }*/
 
 
-.nav-menu ul{
+.navMenu ul{
   display: block;
   position: fixed;
   top: 70px;
@@ -325,7 +327,7 @@ a:hover{
   right: 10;
 }
 
-.nav-menu ul li{
+.navMenu ul li{
   padding: 2rem;
   display: flex;
   justify-content: center;

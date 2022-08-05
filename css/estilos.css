@@ -116,7 +116,7 @@ header{
     
 }
 
-.container{
+.contenedor{
 
  justify-content: flex-start;
  
@@ -128,7 +128,7 @@ header{
 /* logo del header*/
 .header__imagen{
   margin-bottom: 10px;
-  width: 6%;
+  width: 9%;
   position: absolute;
 
 }
@@ -444,12 +444,12 @@ h2{
   padding-bottom: 3em;
   display: grid;
   grid-template-areas: repeat(4, 1fr);
-  grid-auto-rows: 220px;
+  grid-auto-rows: 300px;
  grid-template-areas: 
- "img1 img1 img2 img2"
- "img1 img1 img2 img2"
- "img3 img3 img4 img4"
- "img3 img3 img4 img4";
+ "img1 img1 img1 img1"
+ "img2 img2 img2 img2"
+ "img3 img3 img3 img3"
+ "img4 img4 img4 img4";
   gap: .8em;
   
 }
@@ -461,13 +461,13 @@ h2{
 }
 
 .galeria__foto--g1::before{
-  content: "Camperas";
+  content: "";
   position: absolute;
   top: 0%; 
   bottom: 0%;
   left: 0%;
   right: 0%;
-  background-color: rgba(195, 0, 255, 0.404);
+  background-color: rgba(255, 255, 255, 0.404);
   transform: translate(100%);
   transition: transform .4s;
   color: rgb(251, 246, 246);
@@ -486,13 +486,13 @@ h2{
 }
 
 .galeria__foto--g2::before{
-  content: "Jeans";
+  content: "";
   position: absolute;
   top: 0%; 
   bottom: 0%;
   left: 0%;
   right: 0%;
-  background-color: rgba(12, 255, 239, 0.404);
+  background-color: rgba(255, 255, 255, 0.404);
   transform: translate(100%);
   transition: transform .4s;
   color: rgb(251, 246, 246);
@@ -511,13 +511,13 @@ h2{
 }
 
 .galeria__foto--g3::before{
-  content: "Buzos";
+  content: "";
   position: absolute;
   top: 0%; 
   bottom: 0%;
   left: 0%;
   right: 0%;
-  background-color: rgba(255, 255, 0, 0.404);
+  background-color: rgba(255, 255, 255, 0.404);
   transform: translate(100%);
   transition: transform .4s;
   color: rgb(251, 246, 246);
@@ -536,13 +536,13 @@ h2{
 }
 
 .galeria__foto--g4::before{
-  content: "Remeras/Chombas";
+  content: "";
   position: absolute;
   top: 0%; 
   bottom: 0%;
   left: 0%;
   right: 0%;
-  background-color: rgba(17, 255, 0, 0.404);
+  background-color: rgba(255, 255, 255, 0.404);
   transform: translate(100%);
   transition: transform .4s;
   color: rgb(251, 246, 246);
@@ -734,8 +734,10 @@ h3{
   }
 
   .header__imagen{
-    width: 60%;  
+    width: 25%;  
     position: relative;
+    display: flex;
+    justify-content: center;
 
 }
 footer .Grupo1 .box figure img{
@@ -760,6 +762,42 @@ footer .Grupo1 .box figure img{
   display: inline-block;
   padding: 0 0 ;
  }
+
+ .galeria__foto{
+  width: 100%;
+  top: 0%;
+  bottom: 0%;
+  margin-top:0;
+  margin-bottom: 0%;
+  line-height: 0%;
+
+ }
+
+ .galeria__img{
+  display: grid;
+  width:100%;
+  height: 20vh;
+  line-height: 0%;
+  
+  
+ }
+
+ .galeria__foto--g1::before{
+  content: none;
+ }
+
+ .galeria__foto--g2::before{
+  content: none;
+ }
+
+ .galeria__foto--g3::before{
+  content: none;
+ }
+
+ .galeria__foto--g4::before{
+  content: none;
+ }
+
 
 
 }

@@ -14,32 +14,27 @@
 
     <!--Body es todo lo que esta visible en la pagina.-->
     <body>
+        
      
         <header class="header"> <!--al darle una clase a una etiqueta estoy facilintando la manera para darle estilo propio a ese atributo-->
-            <div class="contenedor"> <!-- este div contiene el logo del header/encabezado-->
-                <a href="#"> <!--la etiqueta a para enlazar la imagen y redireccionar hacia al inicio-->
-                    <img class="header__imagen" width="100%" src="./img/atumodo.logo.jpg" alt="imagen-logo"> <!--logo del header-->
-                </a>
-            </div>
-            <nav class="navMenu">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="checkbtn">
-                        <i class="menu-icon">
-                            <img src="img/icono.hamburg.jpg" alt="">
-                        </i>
-                    </label>
-                    
-
-
-                    <ul class="">
-                        <li><a class="enlaces" href="index.html">Inicio</a></li>
-                        <li><a class="enlaces" href="pages/productos.html">Productos</a> </li>
-                        <li><a class="enlaces" href="pages/sucursales.html">Sucursales</a></li>
-                        <li><a class="enlaces" href="pages/contacto.html">Contacto</a></li>
-                        <li><a class="enlaces" href="pages/comunidad.html">Comunidad</a></li>
-                    </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg bg-white">
+                <a class="navbar-brand" href="../index.html"> <img class="header__imagen" width="100%" src="../img/atumodo.logo.jpg" alt="imagen-logo"></a>
+                <div class="container-fluid">
                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" href="#">Inicio</a>
+                      <a class="nav-link" href="pages/productos.html">Productos</a>
+                      <a class="nav-link" href="pages/sucursales.html">Sucursales</a>
+                      <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                      <a class="nav-link" href="pages/comunidad.html">Comunidad</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
            
         </header>
         <main>

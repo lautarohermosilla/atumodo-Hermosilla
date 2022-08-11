@@ -451,6 +451,8 @@ h2{
 
 }
 
+
+
 .galeria__foto--g2::before{
   content: "";
   position: absolute;
@@ -589,14 +591,32 @@ aside{
  "foto1 foto1 foto1 foto1"
  "foto2 foto2 foto2 foto2"
  "foto2 foto2 foto2 foto2" ;
+ 
 
 
 }
 
 .productos__fotos--g1{
   grid-area: foto1;
-
+  transition: all 500ms ease;
 }
+
+figure{
+ width: 90%;
+ height: 100%;
+ overflow: hidden;
+}
+
+figure img{
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+figure img:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
 
 .productos__fotos--g2{
   grid-area: foto2;

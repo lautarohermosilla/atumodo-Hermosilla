@@ -18,10 +18,9 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-  
 
 
-
+/*footer*/
 
 footer{
   
@@ -30,6 +29,7 @@ footer{
    
     
 }
+
 footer .Grupo1{
   width: 100%;
   max-width: 1200px;
@@ -39,7 +39,6 @@ footer .Grupo1{
   grid-gap: 50px;
   padding: 45px 0px;
 }
-
 
 
 footer .Grupo1 .box figure{
@@ -71,11 +70,6 @@ footer .Grupo1 .box p{
  
 }
 
-/*footer .Grupo1 .redSocial{
-  display: flex;
-  justify-content:center ;
-}*/
-
 
 footer .Grupo1 .redSocial a{
   display:inline-flex;
@@ -90,6 +84,7 @@ footer .Grupo1 .redSocial a{
   background-color: #373036;
   transition: all 300ms ease;
 }
+
 footer .Grupo1 .redSocial a:hover{
   color: #ff00fb;
 
@@ -105,6 +100,7 @@ footer .grupo2{
 
 
 /*padre de los navegadores, listas,div*/
+/*header-encabezado*/
 header{
    background-color: rgb(255, 255, 255);
     padding:15px;
@@ -129,245 +125,13 @@ header{
 }
 
 
-/* logo del header*/
+/* logo del header*/ /*atumodo logo*/
 .header__imagen {
   margin-bottom: 10px;
   width: 45%;
   position: relative;
 
 }
-
-/*.header__navegador a{
-  color: rgb(28, 28, 28);
-  text-decoration: none;
-  font-family: 'Rubik', sans-serif;
-  text-align: left 50%;
-  margin-right: 100px;
-  position: sticky; } 
-  
-
-ul, ol{
-  list-style: none;
-
-
-}
- nav{
- display: flex;
-	justify-content: center;
-}
-
- 
-
-.nav li a{
-  background-color: white;
-  color: rgba(3, 21, 107, 0.955);
-  text-decoration:none;
-  text-transform: uppercase;
-  padding: 10px 15px;
-  display: block;
-  text-align: left 50%;
-  /*distancia entre los enlaces*//*
-  margin-right: 40px;
-  left: 400%;
-  font-family: 'Raleway', sans-serif;
-  transition: all 500ms ease;
-  
-}
-nav li a:hover{
-  color: #ff5cfc;
-
-}
-
-.nav > li{
-  float: left;
-}
-
-.nav li ul{
-  display: none;
-  position:absolute;
-  min-width: 140px;
-}
-
-.nav li:hover > ul{
-  display: block;
-
-}*/
-/*
-.navMenu{
-  display: flex;
-  justify-content: center;
- }
-
-.enlaces{
-
-  background-color: white;
-  color: rgba(69, 95, 225, 0.955);
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  /*padding: 5px 10px;*/
-  /*display: flex;*/
-  /*text-align: left 50%;
-  margin-right: 40px;
-  /*left: 400%;*/
-  /*font-family: 'Raleway', sans-serif;
-  transition: all 500ms ease;
-  
-}
-
-.enlaces:hover{
-  color: #ff5cfc;
-  
-
-}
-
-.navMenu ul{
-  display: flex;
-  align-items: center;
-  list-style: none;
-
-}
-
-.navMenu li{
-  margin-right: 1.5rem;
-
-}
-
-
-.navMenu li{
- margin-right: 1em;
-
-
-}
-
-
-/*
-.menu-icon img{
-  width: 40px;
-  height: 40px;
-  /*text-align: left;*/
-  /*line-height: 24px;*/
- /* display: inline;*/
-  /*border-radius: 20px;*//*
-  
-} */
-
-
-  
-/* .menu-icon, #check{
-  display: none;
-}
-@media ( min-width: 320px) and (max-width:450px) {
-
-  .
-
-
-
-}*/
-
-/*@media (min-width:470px) and (max-width:768px){
-   .checkbtn{
-    display: block;
-   }
-   .menu-icon{
-    
-    
-    display: block;
-    position: fixed;
-    top: 20px;
-    right:20px ;
-    cursor: pointer;
-} 
- /*.menu-icon img{
- 
- }*/
-
-/*
-.navMenu ul{
-  display: block;
-  position: fixed;
-  top: 70px;
-  left: -100%;
-  background:#ffffff;
-  width: 100%;
-  height: 100vh;
-  right: 10;
-}
-
-.navMenu ul li{
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-
-}
-
-#check:checked ~ ul {
-  left: 0;
-
-}
-}*/
- /*@media (min-width:768px) and (max-width:900px) {
-  .checkbtn{
-    display: block;
-   }
-   .menu-icon{
-    
-    
-    display: block;
-    position: fixed;
-    top: 20px;
-    right:20px ;
-    cursor: pointer;
-} 
- /*.menu-icon img{
- 
- }
-
-
-.nav-menu ul{
-  display: block;
-  position: fixed;
-  top: 70px;
-  left: -100%;
-  background:#ffffff;
-  width: 100%;
-  height: 100vh;
-  right: 10;
-}
-
-.nav-menu ul li{
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-
-}
-
-#check:checked ~ ul {
-  left: 0;
-
-
-
-  
- }
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .imagen__inicio{
   width: 100%;
@@ -390,7 +154,7 @@ p{
 .Titulo__inicio{
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  color: rgb(255, 0, 200);
+  color: #ff00fb;
   font-size:400%;
   
  
@@ -563,11 +327,6 @@ object-fit:cover ;
 }
 
  
-/*.nav__productos{
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  color:black ;
-}*/
 
 aside{
   display: flex;

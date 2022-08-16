@@ -1,0 +1,86 @@
+@import "variables.scss";
+
+//*footer*//
+
+footer{
+    width: 100px;
+    background-color: $color-secundario;
+
+    .Grupo1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-gap: 50px;
+        padding: 45px 0px;
+
+        .box{
+            figure{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                        a{
+                            img{
+                                width: 250px;
+                            }
+                        }
+                }
+
+                h2{
+
+                    color: $color-primario;
+                    margin-bottom: 25px;
+                    font-size: 20px;
+
+                }
+
+                p{
+
+                    color:#075344;
+                    margin-bottom: 10px;
+                }
+
+                .redSocial{
+
+                    a{
+                        &:hover{
+                            color: $color-primario;
+
+                        }
+
+                        display:inline-flex;
+                        justify-content: center;
+                        text-decoration: none;
+                        margin-left: 9%;
+                        width: 45px;
+                        height: 45px;
+                        line-height: 45px;
+                        color: $color-secundario;
+                        text-align: center;
+                        background-color: #373036;
+                        transition: all 300ms ease;
+
+                    }
+
+                }
+
+
+        }
+    
+
+
+    }
+
+    .grupo2{
+
+        background-color: #373036;
+        padding: 15px 10px;
+        text-align: center;
+        color: $color-secundario;
+
+    }
+}

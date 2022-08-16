@@ -1,0 +1,65 @@
+footer {
+  width: 100px;
+  background-color: #fff;
+}
+footer .Grupo1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+footer .Grupo1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .Grupo1 .box figure a img {
+  width: 250px;
+}
+footer .Grupo1 .box h2 {
+  color: #ff00fb;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+footer .Grupo1 .box p {
+  color: #075344;
+  margin-bottom: 10px;
+}
+footer .Grupo1 .box .redSocial a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  margin-left: 9%;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  text-align: center;
+  background-color: #373036;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+footer .Grupo1 .box .redSocial a:hover {
+  color: #ff00fb;
+}
+footer .grupo2 {
+  background-color: #373036;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}/*# sourceMappingURL=estilos.css.map */

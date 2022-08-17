@@ -426,16 +426,9 @@ span{
 }
 
 h3{
-  text-align: center;
-  font-family: 'Rubik', sans-serif;
-  background-color: black;
-  margin: auto;
-  margin-top: 2%;
-  margin-bottom:2%;
-  padding: 15px;
-  padding-left: 32%;
-  padding-right: 32%;
-  color:white ;
+  
+  
+ 
 }
 
 
@@ -621,6 +614,7 @@ a.nav-link:hover{
 
 a.navbar-brand{
   margin: 0px;
+  padding-left: 0%;
  
 }
 
@@ -633,4 +627,55 @@ a.navbar-brand{
   justify-content: center;
 
 }
+
+/*comunidad*/
+
+
+
+.Seccion__Nosotros{
+  justify-content: center;
+  display:flex ;
+
+}
+
+
+.Caja__1{
+  width: 100%;
+  margin: 4em;
+  padding: 4em;
+  background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);  
+  display:grid;
+  border-radius: 1em;
+}
+
+.s__titulo{
+  background-color: #fff;
+  border-radius: 50px;
+  display:inline-block;
+  margin: 0px 0px 25px;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  justify-content: center;
+  color: #212529;
+  
+}
+
+.s__subtitulo{
+  justify-content: center;
+  text-align: center;
+  color: #ff00bf;
+  font-size: 30px;
+
+}
+
+.Caja__1 span{
+  justify-content:center ;
+  color: #212529;
+}
+
+
+
 

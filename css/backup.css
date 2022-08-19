@@ -138,6 +138,68 @@ header{
   position: relative;
 }
 
+/*seccion bienvenida*/
+
+.Seccion__Bienvenidos{
+  justify-content: center;
+  display:flex ;
+  align-items: center;
+ 
+
+
+}
+
+
+.Caja_1{
+  width: 100%;
+  margin: 4em;
+  padding: 2em;
+  background: #FC354C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+  display:grid;
+  border-radius: 1em;
+}
+
+.B__titulo{
+  background-color: #fff;
+  border-radius: 60px;
+  display:inline-block;
+  margin: 0px 0px 25px;
+  padding: 10px 20px;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  color: #212529;
+  
+}
+
+.B__subtitulo{
+  justify-content: center;
+  text-align: center;
+  color: #a8dadc;
+  font-size: 60px;
+  margin-top: 1%;
+}
+
+.B__texto{
+  justify-content:center ;
+  color: #ffffff;
+  font-size: 40px;
+  
+}
+
+.B__titulo img{
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
 
 p{
   font-family: 'Poppins', sans-serif;
@@ -173,7 +235,7 @@ h2{
 
 .Galeria{
   padding-top: 1em;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   display: grid;
   grid-template-areas: repeat(4, 1fr);
   grid-auto-rows: 300px;
@@ -579,12 +641,99 @@ footer .Grupo1 .box figure img{
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1000px){
+@media screen and (min-width: 320px) and (max-width: 500px){
+
+.header{
+  display: flex;
+}
+
+
   .header__imagen{
-    width: 10%;
+    margin-right:10px ;
+    
+   
   }
 
+  .navbar-brand{
+    position: relative;
   
+  
+  }
+
+  div.container-fluid{
+    position: relative;
+}
+
+.Caja_1{
+  width: 100%;
+  border-radius: 2em ;
+  margin: 2em;
+  padding: 1em;
+}
+
+
+h2.B__titulo{
+  border-radius: 16px;
+  margin: 0px 0px 10px;
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 20px;
+  justify-content: center;
+  margin-bottom: 0%;
+  
+}
+
+
+
+.B__subtitulo{
+  justify-content: center;
+  text-align: center;
+  color: #a8dadc;
+  font-size: 30px;
+  margin-top: 16%;
+}
+ 
+.B__texto{
+  font-size: 30px;
+  padding-bottom: 1px;
+  justify-content: center;
+}
+
+
+.B__titulo img{
+  width: 59%;
+  justify-content: center;
+}
+ 
+.Galeria{
+  padding-top: 1em;
+  padding-bottom: 2em;
+  display: grid;
+  grid-template-areas: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+ grid-template-areas: 
+ "img1 img1 img1 img1"
+ "img2 img2 img2 img2"
+ "img3 img3 img3 img3"
+ "img4 img4 img4 img4";
+  gap: .8em;
+}
+
+
+
+
+.Galeria figure{
+  width: 100%;
+  height: 110%;
+}
+
+.Galeria figure img{
+  width: 100%;
+  height:30% ;
+}
+
+
+
 }
 
 a.nav-link{
@@ -675,7 +824,3 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   justify-content:center ;
   color: #212529;
 }
-
-
-
-

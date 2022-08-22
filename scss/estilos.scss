@@ -1,10 +1,15 @@
 @import "variables.scss";
+@import "mixins.scss"
 
 //*footer*//
+ 
+{}
 
 footer{
-    width: 100px;
-    background-color: $color-secundario;
+
+    
+        width:map-get(total);
+        background-color: $color-secundario;
 
     .Grupo1{
         width: 100%;
@@ -83,4 +88,23 @@ footer{
         color: $color-secundario;
 
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

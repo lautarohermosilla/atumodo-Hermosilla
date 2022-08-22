@@ -1,29 +1,33 @@
 @import "variables.scss";
+@import "mixins.scss";
+
+
 
 
 
 
 //*footer*//
 
-    footer{
+footer
 
-        
-            width:map-get($ancho,total);
+    { 
+            width:map-get($tamaño,total);
             background-color: $color-secundario;
 
         .Grupo1{
-            width: map-get($ancho,total);
+            width: map-get($tamaño,total);
             max-width: 1200px;
             margin: auto;
             display: grid;
             grid-template-columns: repeat(3, 1fr) ;
-            grid-gap: map-get($ancho,mediano);
+            grid-gap: map-get($tamaño,mediano);
             padding: 45px 0px;
 
             .box{
+
                 figure{
-                        width: map-get($ancho,total );
-                        height: map-get($ancho,total );
+                        width: map-get($tamaño,total );
+                        height: map-get($tamaño,total );
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -88,17 +92,18 @@
         }
     }
 
- 
-//*header*//
+    //*header*//
 
 header{
     background-color: $color-secundario;
     padding: 15px;
     top:0% ;
-    width: map-get($ancho, total );
+    width: map-get($tamaño,total);
     position: sticky;
     z-index: 10;
     display: grid;
+     
+   //*--NAVEGADOR DE BS CON ESTILOS PROPIOS--*//
 
      .navbar{
 
@@ -108,9 +113,152 @@ header{
             position: relative;
         }
 
+        .nav-link{
+
+            &:hover{
+                color: $color-primario;
+            }
+
+
+
+            color: rgb(15, 15, 133);
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: map-get($tamaño,total);
+            margin-right: map-get($tamaño,total);
+            font-family: 'Raleway', sans-serif;
+            transition : all 500ms ease;
+            justify-content: center;
+
+        }
 
      }
 
+     
+}
+
+//*--FORMULARIO--(Y USO DE EXTEND)--*//
+.formulario{
+    background-color:$color-secundario;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5rem 1.5rem;
+    margin: auto;
+
+    .formularioContainer{
+        width: map-get($tamaño, total );
+        display: grid;
+        gap: 1em;
+        grid-auto-columns: 100%;
+
+        .formularioTitulo{
+            text-align: center;
+            font-size: 1.9rem;
+            margin-bottom: .4rem;
+
+        }
+
+        .inputformulario{
+
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            padding: .8em 1em ;
+            outline: none;
+            border: none;
+            border: 1px solid #bbb0b0 ;
+            border-radius: 0.2em;
+
+        }
+        
+        .inputformulario{
+            @extend .inputformulario;
+            resize: none;
+            padding: 1.8em 1em;
+            margin-bottom: .5em;
+
+
+        }
+
+                
+        .formularioCta{
+            font-family: 'Poppins', sans-serif;
+            background-color: #62bde3;
+            color: #ffff;
+            border: none;
+            font-weight: 300;
+            padding: .7em 0 ;
+            border-radius: .2em;
+            cursor: pointer;
+            font-weight: 400;
+        }
+
+    }
+
+}
+
+//*CARTEL DE BIENVENIDOS*//
+.Seccion__Bienvenidos{
+
+    @include centrado;
+   
+        .Caja_1{
+            width: map-get($tamaño,total );
+            margin: 4em;
+            padding: 2em;
+            background: #FC354C;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        display: grid;
+        align-items:center ;
+
+        
+        .B__titulo{
+            background-color:$color-secundario;
+            border-radius: 60px;
+            display:inline-block;
+            margin: 0px 0px 25px;
+            padding: 10px 20px;
+            font-size: 40px;
+            font-weight: 500;
+            text-align: center;
+            justify-content: center;
+            color: #212529;
+
+        img{
+            width: 20%;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        }
+
+        .B__subtitulo{
+            justify-content: center;
+            text-align: center;
+            color: #a8dadc;
+            font-size: 50px;
+            margin-top: 1%;
+        }
+        
+
+
+        .B__texto{
+            justify-content:center ;
+            color: #ffffff;
+            font-size: 35px;
+
+
+    }
+    
+
+
+
+
+    }
 
 
 

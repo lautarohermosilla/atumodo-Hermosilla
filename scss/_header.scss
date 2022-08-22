@@ -1,0 +1,46 @@
+//*header*//
+
+header{
+    background-color: $color-secundario;
+    padding: 15px;
+    top:0% ;
+    width: map-get($tamaño,total);
+    position: sticky;
+    z-index: 10;
+    display: grid;
+
+     .navbar{
+
+        .header__imagen{
+            margin-bottom: 10px;
+            width: 45%;
+            position: relative;
+        }
+
+        .nav-link{
+
+            &:hover{
+                color: $color-primario;
+            }
+
+
+
+            color: rgb(15, 15, 133);
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: map-get($tamaño,total);
+            margin-right: map-get($tamaño,total);
+            font-family: 'Raleway', sans-serif;
+            transition : all 500ms ease;
+            justify-content: center;
+
+        }
+
+     }
+
+
+
+
+}

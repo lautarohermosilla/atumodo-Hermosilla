@@ -142,6 +142,7 @@ header{
 
 .Seccion__Bienvenidos{
   justify-content: center;
+  flex-direction:column;
   display:flex ;
   align-items: center;
  
@@ -639,12 +640,13 @@ footer .Grupo1 .box figure img{
 @media screen and (min-width: 320px) and (max-width: 600px){
 
 .header{
-  display: flex;
+  display:grid;
 }
 
 
   .header__imagen{
     margin-right:10px ;
+    display: none;
     
    
   }
@@ -654,6 +656,21 @@ footer .Grupo1 .box figure img{
   
   
   }
+
+  .navbar-toggler{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    
+  }
+
+  span.navbar-toggler-icon{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  }
+
+
 
   div.container-fluid{
     position: relative;
@@ -757,7 +774,7 @@ h2.B__titulo{
 
 a.nav-link{
   
-  color: rgb(15, 15, 133);
+  color: rgb(90, 90, 194);
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 0px;
@@ -808,6 +825,8 @@ a.navbar-brand{
 .Seccion__Nosotros{
   justify-content: center;
   display:flex ;
+ flex-direction: column;
+ align-items: center;
 
 }
 

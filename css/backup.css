@@ -835,19 +835,22 @@ a.navbar-brand{
   width: 100%;
   margin: 4em;
   padding: 4em;
-  background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);  
+  background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   display:grid;
   border-radius: 1em;
 }
 
 .s__titulo{
-  background-color: #fff;
-  border-radius: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
   display:inline-block;
   margin: 0px 0px 25px;
   padding: 10px 20px;
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 100;
   text-align: center;
   justify-content: center;
@@ -858,12 +861,40 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 .s__subtitulo{
   justify-content: center;
   text-align: center;
-  color: #ff00bf;
+  color: #fffdfd;
   font-size: 30px;
 
 }
 
 .Caja__1 span{
   justify-content:center ;
-  color: #212529;
+  
 }
+
+.Caja__presentacion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+.Caja__presentacion img{
+  width: 25%;
+  height: 100%;
+  border-radius: 600%;
+  
+}
+
+.presentacion__nombre{
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.presentacion__cargo{
+  background-color: #fff;
+  border-radius: 50px;
+  margin: 1em;
+  padding: 1em;}

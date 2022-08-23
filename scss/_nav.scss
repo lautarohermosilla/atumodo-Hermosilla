@@ -1,0 +1,23 @@
+/*estilo personalizados del nav BS*/
+a.nav-link {
+	color: $color_10;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 100px;
+	margin-right: 100px;
+	font-family: $font-family_4;
+	transition: all 500ms ease;
+	justify-content: center;
+	&:hover {
+		color: $color_1;
+	}
+}
+.container-fluid {
+	background-color: $background-color_1;
+}
+a.navbar-brand {
+	margin: 0px;
+	padding-left: 0%;
+}

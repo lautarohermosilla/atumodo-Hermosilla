@@ -1,0 +1,43 @@
+
+.Seccion__Bienvenidos {
+	@include centrado;
+}
+.Caja_1 {
+	width: 100%;
+	margin: 4em;
+	padding: 2em;
+	background: #FC354C;
+	background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
+	background: linear-gradient(to right, #0ABFBC, #FC354C);
+	display: grid;
+	border-radius: 1em;
+}
+.B__titulo {
+	background-color: $background-color_4;
+	border-radius: 60px;
+	display: inline-block;
+	margin: 0px 0px 25px;
+	padding: 10px 20px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	justify-content: center;
+	color: $color_4;
+	img {
+		width: 20%;
+		justify-content: center;
+		align-items: center;
+	}
+}
+.B__subtitulo {
+	justify-content: center;
+	text-align: center;
+	color: $color_5;
+	font-size: 50px;
+	margin-top: 1%;
+}
+.B__texto {
+	justify-content: center;
+	color: $color_6;
+	font-size: 35px;
+}

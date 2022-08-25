@@ -6,6 +6,7 @@
 @import "https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@700&family=Rubik&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@import 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap';
 /*reset*/
 * {
   margin: 0%;
@@ -22,12 +23,11 @@ body {
 /*header*/
 header {
   background-color: rgb(255, 255, 255);
-  padding: 15px;
   top: 0;
   width: 100%;
   position: sticky;
   z-index: 10;
-  display: grid;
+  /*display: flex;*/
 }
 header .header__imagen {
   margin-bottom: 10px;
@@ -247,13 +247,19 @@ footer .grupo2 {
             justify-content: center;
   }
   .Galeria {
-    padding-top: 1em;
-    padding-bottom: 2em;
-    display: grid;
-    grid-template-areas: repeat(4, 1fr);
-    grid-auto-rows: 300px;
-    grid-template-areas: "img1 img1 img1 img1" "img2 img2 img2 img2" "img3 img3 img3 img3" "img4 img4 img4 img4";
-    gap: 0.2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .Galeria figure {
     width: 100%;
@@ -531,14 +537,15 @@ footer .grupo2 {
 
 /*estilo personalizados del nav BS*/
 a.nav-link {
-  color: rgb(90, 90, 194);
+  color: rgb(62, 124, 186);
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-size: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 100px;
   margin-right: 100px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Bebas Neue", cursive;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   -webkit-box-pack: center;

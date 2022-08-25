@@ -44,13 +44,12 @@ header .header__imagen {
 }
 .carousel-caption span.texto-carousel {
   font-size: 50px;
-  color: #ff00fb;
+  color: rgb(255, 255, 255);
 }
 .carousel-caption .contenedor-boton {
   margin: 1em;
 }
 .carousel-caption .contenedor-boton .button-carousel {
-  width: 100%;
   font-size: 20px;
   color: black;
   background-color: #fff;
@@ -263,6 +262,21 @@ footer .grupo2 {
   .Galeria figure img {
     width: 100%;
     height: 30%;
+  }
+  .carousel-caption {
+    top: 15%;
+    margin-left: -50%;
+  }
+  .carousel-caption span.carousel-text {
+    font-size: 8px;
+    text-align: center;
+  }
+  .carousel-caption span.texto-carousel {
+    font-size: 10px;
+    text-align: center;
+  }
+  .contenedor-boton {
+    top: 5%;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {

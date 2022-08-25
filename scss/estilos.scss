@@ -1,86 +1,50 @@
-@import "variables.scss";
-
-//*footer*//
-
-footer{
-    width: 100px;
-    background-color: $color-secundario;
-
-    .Grupo1{
-        width: 100%;
-        max-width: 1200px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr) ;
-        grid-gap: 50px;
-        padding: 45px 0px;
-
-        .box{
-            figure{
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                        a{
-                            img{
-                                width: 250px;
-                            }
-                        }
-                }
-
-                h2{
-
-                    color: $color-primario;
-                    margin-bottom: 25px;
-                    font-size: 20px;
-
-                }
-
-                p{
-
-                    color:#075344;
-                    margin-bottom: 10px;
-                }
-
-                .redSocial{
-
-                    a{
-                        &:hover{
-                            color: $color-primario;
-
-                        }
-
-                        display:inline-flex;
-                        justify-content: center;
-                        text-decoration: none;
-                        margin-left: 9%;
-                        width: 45px;
-                        height: 45px;
-                        line-height: 45px;
-                        color: $color-secundario;
-                        text-align: center;
-                        background-color: #373036;
-                        transition: all 300ms ease;
-
-                    }
-
-                }
+@import "_variables.scss";
+@import "_fonts.scss";
+@import"_mixins.scss";
+@import "_basic.scss";
+@import"_header.scss";
+@import "_slider.scss";
+@import "_footer.scss";
+@import"_formulario.scss";
+@import"_mediaqueries.scss";
+@import"_galeria.scss";
+@import"_nav.scss";
+@import"_bienvenidos.scss";
+@import"_productos.scss";
+@import"_sucursal.scss";
+@import"_comunidad.scss";
 
 
-        }
-    
+
+/*footer*/
+/*padre de los navegadores, listas,div*/
+/*header-encabezado*/
+/* logo del header*/
+/*atumodo logo*/
+/*seccion bienvenida*/
+/*mediaqueries*/
+/*comunidad*/
 
 
-    }
 
-    .grupo2{
-
-        background-color: #373036;
-        padding: 15px 10px;
-        text-align: center;
-        color: $color-secundario;
-
-    }
+p {
+	font-family: $font-family_1;
+	text-align: center;
+	font-style: italic;
+	font-size: 100%;
+}
+.container {
+	width: 50%;
+	display: flex;
+}
+.Titulo__inicio {
+	text-align: center;
+	font-family: $font-family_1;
+	color: $color_1;
+	font-size: 400%;
+}
+h2 {
+	text-align: center;
+	font-family: $font-family_1;
+	color: $color_7;
 }

@@ -1,0 +1,16 @@
+/*header*/
+header {
+	background-color: $background-color_3;
+	padding: 15px;
+	top: 0;
+	width: 100%;
+	position: sticky;
+	z-index: 10;
+	display: grid;
+
+    .header__imagen {
+        margin-bottom: 10px;
+        width: 45%;
+        position: relative;
+    }
+}

@@ -1,0 +1,44 @@
+/*formulario*/
+
+.formulario {
+	background-color: $background-color_6;
+	width: 90%;
+	max-width: 400px;
+	border-radius: 1em;
+	padding: 3.5rem 1.5rem;
+	margin: auto;
+}
+.formularioContainer {
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-auto-columns: 100%;
+}
+.formularioTitulo {
+	text-align: center;
+	font-size: 1.9rem;
+	margin-bottom: .4rem;
+}
+.inputFormulario {
+	font-family: $font-family_1;
+	font-size: 1rem;
+	padding: .8em 1em;
+	outline: none;
+	border: none;
+	border: 1px solid #bbb0b0;
+	border-radius: 0.2em;
+	resize: none;
+	padding: 1.8em 1em;
+	margin-bottom: .5em;
+}
+.formularioCta {
+	font-family: $font-family_1;
+	background-color: $background-color_7;
+	color: $color_3;
+	border: none;
+	font-weight: 300;
+	padding: .7em 0;
+	border-radius: .2em;
+	cursor: pointer;
+	font-weight: 400;
+}

@@ -284,6 +284,16 @@ footer .grupo2 {
   .contenedor-boton {
     top: 5%;
   }
+  .Seccion__Nosotros {
+    width: 100%;
+  }
+  .Seccion__Nosotros .Caja__1 {
+    width: 100%;
+  }
+  .Seccion__Nosotros .presentacion__nombre {
+    margin-bottom: 1px;
+    font-size: 32px;
+  }
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
   button.navbar-toggler {

@@ -7,7 +7,7 @@
 	.header {
 		display: grid;
 	}
-	.header__imagen {
+	img.header__imagen {
 		margin-right: 10px;
 		display: none;
 	}
@@ -56,7 +56,7 @@
 	}
 	.B__titulo {
 		img {
-			width: 59%;
+			width: 65%;
 			justify-content: center;
 		}
 	}
@@ -79,6 +79,35 @@
 	}
 }
 @media screen and (min-width:500px) and (max-width:600px) {
+
+	button.navbar-toggler{
+		padding: 0;
+		margin: 0%;
+
+	}
+
+	span.navbar-toggler-icon{
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.Galeria{
+		figure{
+			width: 100%;
+			height: 110%;
+
+			img{
+				width: 100%;
+				height: 50%;
+						
+			}
+
+		}
+
+
+	}
+
 	.Caja_1 {
 		width: 100%;
 		border-radius: 20px;

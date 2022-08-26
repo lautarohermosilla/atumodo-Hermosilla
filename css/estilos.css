@@ -779,16 +779,6 @@ span {
   font-size: 20px;
   margin-bottom: 2em;
 }
-.sucursalContainer #location {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: white;
-  border-color: #767676;
-  border-style: solid;
-  border-width: 1px;
-  display: inline-block;
-}
 
 /*staff comunidad*/
 .Seccion__Nosotros {

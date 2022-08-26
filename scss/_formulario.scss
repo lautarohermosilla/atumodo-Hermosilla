@@ -41,4 +41,10 @@
 	border-radius: .2em;
 	cursor: pointer;
 	font-weight: 400;
+	transition: all 500ms ease;
+     
+	&:hover{
+		color: $color_1;
+	}
+     
 }

@@ -1,7 +1,9 @@
 .carousel-caption{
   top:50%;
   
-  
+       a{
+        text-decoration: none;
+       }  
 
     span.carousel-text{
         font-size: 50px;
@@ -33,6 +35,13 @@
             margin: 10px;
             padding: 10px;
             cursor: pointer;
+            transition: all 250ms ease;
+
+
+            &:hover{
+                color: #fff;
+                background-color: black;
+            }
         
         }
             

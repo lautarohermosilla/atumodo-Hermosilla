@@ -38,6 +38,9 @@ header .header__imagen {
 .carousel-caption {
   top: 50%;
 }
+.carousel-caption a {
+  text-decoration: none;
+}
 .carousel-caption span.carousel-text {
   font-size: 50px;
   padding: 10px;
@@ -59,6 +62,12 @@ header .header__imagen {
   margin: 10px;
   padding: 10px;
   cursor: pointer;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+.carousel-caption .contenedor-boton .button-carousel:hover {
+  color: #fff;
+  background-color: black;
 }
 
 /*footer*/

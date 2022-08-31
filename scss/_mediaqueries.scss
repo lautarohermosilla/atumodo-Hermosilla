@@ -117,6 +117,12 @@
 
 	.Seccion__Nosotros{
 		width: 100%;
+
+		.Caja__presentacion{
+			img{
+				width: 100px;
+			}
+		}
 		
 		
 		.Caja__1{
@@ -186,6 +192,9 @@
 	
 
 }
+
+}
+
 @media screen and (min-width:500px) and (max-width:600px) {
 
 	button.navbar-toggler{
@@ -299,4 +308,17 @@
 		}
 	}
 }
+
+@media screen and (min-width:600px) and (max-width:800px) {
+	.header__imagen{
+		display: none;
+	}
+	
+}
+
+
+@media screen and (min-width:800px) and (max-width:999px){
+	.header__imagen{
+		display: none;
+	}
 }

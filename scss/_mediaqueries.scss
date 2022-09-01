@@ -2,7 +2,7 @@
 /*mediaqueries*/
  
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 499px) {
 
 
 
@@ -196,6 +196,89 @@
 }
 
 @media screen and (min-width:500px) and (max-width:600px) {
+
+	.navbar-nav{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+		
+		.nav-link{
+			text-shadow: rgb(22, 105, 184) (0.1em 0.1em 1em);
+
+		}
+
+	}
+
+
+
+	img.header__imagen{
+		display: none;
+	}
+    .carousel-caption{
+
+		span.carousel-text{
+			font-size: 20px;
+		}
+
+		span.texto-carousel{
+			font-size: 20px;
+		}
+
+	}
+	
+
+	.Grupo1 {
+			padding: 2px 2px;
+			
+			.box {
+				width: 100%;
+				figure {
+					width: 100%;
+		
+					img {
+						width: 200px;
+						
+						
+					}
+				}
+	
+				h2{
+					width: 100%;
+					font-size: small;
+				
+				}
+	
+				p{
+					font-size: 16px;
+				}
+			}
+
+			.redSocial {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+				h2{
+					width: 100%;
+					text-align: center;
+				}
+
+
+				a {
+					width: 100%;
+					align-items: center;
+					
+					&:hover {
+						color: $color_1;
+					}
+				}
+			}
+	
+			
+
+	}
+	
 
 	button.navbar-toggler{
 		padding: 0;

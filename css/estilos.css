@@ -191,7 +191,7 @@ footer .grupo2 {
 }
 
 /*mediaqueries*/
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 499px) {
   .header {
     display: grid;
   }
@@ -380,6 +380,80 @@ footer .grupo2 {
   }
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar-nav .nav-link {
+    text-shadow: rgb(22, 105, 184) 0.1em 0.1em 1em;
+  }
+  img.header__imagen {
+    display: none;
+  }
+  .carousel-caption span.carousel-text {
+    font-size: 20px;
+  }
+  .carousel-caption span.texto-carousel {
+    font-size: 20px;
+  }
+  .Grupo1 {
+    padding: 2px 2px;
+  }
+  .Grupo1 .box {
+    width: 100%;
+  }
+  .Grupo1 .box figure {
+    width: 100%;
+  }
+  .Grupo1 .box figure img {
+    width: 200px;
+  }
+  .Grupo1 .box h2 {
+    width: 100%;
+    font-size: small;
+  }
+  .Grupo1 .box p {
+    font-size: 16px;
+  }
+  .Grupo1 .redSocial {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Grupo1 .redSocial h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .Grupo1 .redSocial a {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Grupo1 .redSocial a:hover {
+    color: #ff00fb;
+  }
   button.navbar-toggler {
     padding: 0;
     margin: 0%;
@@ -876,6 +950,9 @@ span {
 }
 
 .Caja__1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   margin: 4em;
   padding: 4em;
@@ -914,6 +991,7 @@ span {
   text-align: center;
   color: #fffdfd;
   font-size: 30px;
+  text-shadow: #2d2e2d 0.1em 0.1em 0.1em;
 }
 
 .Caja__presentacion {

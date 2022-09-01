@@ -9,6 +9,7 @@
 
 }
 .Caja__1 {
+	justify-content: center;
 	width: 100%;
 	margin: 4em;
 	padding: 4em;
@@ -39,6 +40,7 @@
 	text-align: center;
 	color: $color_11;
 	font-size: 30px;
+	text-shadow: #2d2e2d (0.1em 0.1em 0.1em);
 }
 .Caja__presentacion {
 	display: flex;
